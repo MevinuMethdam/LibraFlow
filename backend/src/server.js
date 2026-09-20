@@ -8,7 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// මෙතන අමතරව තිබ්බ '/src' කෑල්ල අයින් කරලා තියෙන්නේ
 //app.use('/api/users', require('./routes/userRoutes'));
 //app.use('/api/books', require('./routes/bookRoutes'));
 
